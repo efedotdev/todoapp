@@ -8,7 +8,7 @@ function List() {
     return (
         <ul className="todo-list">
             {todos.map((todo) => (
-             <Item/>
+             <Item key={todo.id} todo={todo}/>
             ))}
 
         </ul>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { useTodo } from '../../../contexts/TodoContext'
 
 function Item({todo}) {
     return (
@@ -10,7 +9,7 @@ function Item({todo}) {
                     type="checkbox"
                     checked={todo.completed}
                 />
-                <label>Learn JavaScript</label>
+                <label>{todo.text}</label>
                 <button className="destroy"></button>
             </div>
         </li>
