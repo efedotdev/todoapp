@@ -2,11 +2,11 @@ import React,{ createContext, useContext, useState} from "react";
 
 const TodoContext = createContext();
 
-export const TodoProvider = ({Children}) => {
+export const TodoProvider = ({children}) => {
     const [todos, setTodos] = useState([{
         id: 1,
         text:"Learn React",
-        completed:false,
+        completed: true,
     },
 ])
 
@@ -15,7 +15,7 @@ const values = {
     setTodos,
 }
 
-return <TodoContext.Provider value={values}>{Children}</TodoContext.Provider>
+return <TodoContext.Provider value={values}>{children}</TodoContext.Provider>
 }
 
 
