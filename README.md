@@ -4,6 +4,6 @@ Terminalde seçili olan dosya dizininde, npm start komutu ile localde çalışt�
 
 React ile geliştirildi.
 
-Aşağıdakki adresten uygulama test edilebilir
+Aşağıdaki adresten uygulama test edilebilir
 
 https://mundane-camera.surge.sh/
